@@ -5,8 +5,8 @@ sudo dnf -y update
 
 sudo dnf install -y gcc gcc-c++ make cmake
 
-mkdir /mnt/pmem0
-truncate -s 1G /mnt/pmem0/data
+sudo mkdir /mnt/pmem0
+sudo truncate -s 1G /mnt/pmem0/data
 
 
  
