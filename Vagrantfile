@@ -19,6 +19,8 @@ Vagrant.configure("2") do |config|
   config.vm.provider "virtualbox" do |vb|
 	vb.memory = "1024"
   end
+  
+  config.vm.provision "shell", path: "setup.sh", privileged: false
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
