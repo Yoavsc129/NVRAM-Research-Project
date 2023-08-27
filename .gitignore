@@ -188,3 +188,16 @@ cython_debug/
 *.exe
 *.out
 *.app
+
+# Vagrant
+.vagrant
+
+# nvram-secondary-index
+#  nvram-secondary-index/build*
+#  nvram-secondary-index/experiment.o
+#  nvram-secondary-index/blindi/simple_test_blindi_seqtree
+#  nvram-secondary-index/nvresults
+nvram-secondary-index*
+
+#.vscode
+.vscode
